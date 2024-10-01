@@ -1,0 +1,19 @@
+   # Set the default behavior, in case people don't have core.autocrlf set.
+   * text=auto
+
+   # Explicitly declare text files you want to always be normalized and converted
+   # to native line endings on checkout.
+   *.c text
+   *.h text
+   *.js text
+   *.css text
+   *.html text
+
+   # Declare files that will always have LF line endings on checkout.
+   *.sh text eol=lf
+   *.py text eol=lf
+   *.yml text eol=lf
+   *.yaml text eol=lf
+   *.json text eol=lf
+   *ts text eol=lf
+   *.md text eol=lf
